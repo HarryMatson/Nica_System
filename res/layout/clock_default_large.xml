@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.shared.clocks.AnimatableClockView
+    android:textSize="@dimen/large_clock_text_size"
+    android:gravity="center_horizontal"
+    android:layout_gravity="center"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="20.0dip"
+    android:fontFamily="@font/google"
+    android:elegantTextHeight="false"
+    chargeAnimationDelay="350"
+    lockScreenWeight="-500"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

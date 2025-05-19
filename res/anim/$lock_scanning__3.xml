@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set
+    android:ordering="together"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt">
+    <objectAnimator
+        android:interpolator="@anim/anim_7f01004c"
+        android:duration="83"
+        android:startOffset="0"
+        android:valueFrom="1"
+        android:valueTo="1"
+        android:valueType="floatType"
+        android:propertyName="scaleX" />
+    <objectAnimator
+        android:interpolator="@anim/anim_7f01004d"
+        android:duration="83"
+        android:startOffset="0"
+        android:valueFrom="1"
+        android:valueTo="1"
+        android:valueType="floatType"
+        android:propertyName="scaleY" />
+    <objectAnimator
+        android:interpolator="@anim/anim_7f01004e"
+        android:duration="83"
+        android:startOffset="83"
+        android:valueFrom="1"
+        android:valueTo="0.96"
+        android:valueType="floatType"
+        android:propertyName="scaleX" />
+    <objectAnimator
+        android:interpolator="@anim/anim_7f01004f"
+        android:duration="83"
+        android:startOffset="83"
+        android:valueFrom="1"
+        android:valueTo="0.96"
+        android:valueType="floatType"
+        android:propertyName="scaleY" />
+    <objectAnimator
+        android:interpolator="@anim/anim_7f010050"
+        android:duration="183"
+        android:startOffset="167"
+        android:valueFrom="0.96"
+        android:valueTo="1.28"
+        android:valueType="floatType"
+        android:propertyName="scaleX" />
+    <objectAnimator
+        android:interpolator="@anim/anim_7f010051"
+        android:duration="183"
+        android:startOffset="167"
+        android:valueFrom="0.96"
+        android:valueTo="1.28"
+        android:valueType="floatType"
+        android:propertyName="scaleY" />
+    <objectAnimator
+        android:interpolator="@anim/anim_7f010052"
+        android:duration="250"
+        android:startOffset="350"
+        android:valueFrom="1.28"
+        android:valueTo="1"
+        android:valueType="floatType"
+        android:propertyName="scaleX" />
+    <objectAnimator
+        android:interpolator="@anim/anim_7f010053"
+        android:duration="250"
+        android:startOffset="350"
+        android:valueFrom="1.28"
+        android:valueTo="1"
+        android:valueType="floatType"
+        android:propertyName="scaleY" />
+</set>

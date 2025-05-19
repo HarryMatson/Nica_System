@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set
+    android:ordering="sequentially"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt">
+    <objectAnimator
+        android:interpolator="@drawable/drawable_7f080109"
+        android:duration="600"
+        android:startOffset="100"
+        android:valueFrom="0"
+        android:valueTo="90"
+        android:propertyName="rotation" />
+    <objectAnimator
+        android:duration="100"
+        android:startOffset="1300"
+        android:valueFrom="0"
+        android:valueTo="0"
+        android:propertyName="rotation" />
+    <objectAnimator
+        android:interpolator="@drawable/drawable_7f08010a"
+        android:duration="600"
+        android:valueFrom="0"
+        android:valueTo="90"
+        android:propertyName="rotation" />
+    <objectAnimator
+        android:duration="100"
+        android:startOffset="1300"
+        android:valueFrom="0"
+        android:valueTo="0"
+        android:propertyName="rotation" />
+    <objectAnimator
+        android:interpolator="@drawable/drawable_7f08010b"
+        android:duration="600"
+        android:valueFrom="0"
+        android:valueTo="90"
+        android:propertyName="rotation" />
+    <objectAnimator
+        android:duration="100"
+        android:startOffset="1300"
+        android:valueFrom="0"
+        android:valueTo="0"
+        android:propertyName="rotation" />
+    <objectAnimator
+        android:interpolator="@drawable/drawable_7f08010c"
+        android:duration="600"
+        android:valueFrom="0"
+        android:valueTo="90"
+        android:propertyName="rotation" />
+    <objectAnimator
+        android:duration="100"
+        android:startOffset="1300"
+        android:valueFrom="0"
+        android:valueTo="0"
+        android:propertyName="rotation" />
+    <objectAnimator
+        android:interpolator="@drawable/drawable_7f08010d"
+        android:duration="600"
+        android:valueFrom="0"
+        android:valueTo="90"
+        android:propertyName="rotation" />
+</set>

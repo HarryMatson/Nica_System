@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.wm.shell.windowdecor.WindowDecorLinearLayout
+    android:gravity="center_horizontal"
+    android:id="@id/desktop_mode_caption"
+    android:background="@drawable/desktop_mode_decor_title"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button
+        android:id="@id/back_button"
+        android:background="@drawable/decor_back_button_dark"
+        android:contentDescription="@string/back_button_text"
+        style="@style/CaptionButtonStyle" />
+    <Button
+        android:id="@id/caption_handle"
+        android:background="@drawable/decor_handle_dark"
+        android:layout_width="128.0dip"
+        android:layout_height="32.0dip"
+        android:layout_margin="5.0dip"
+        android:contentDescription="@string/handle_text" />
+    <Button
+        android:id="@id/close_window"
+        android:background="@drawable/decor_close_button_dark"
+        android:contentDescription="@string/close_button_text"
+        style="@style/CaptionButtonStyle" />
+</com.android.wm.shell.windowdecor.WindowDecorLinearLayout>

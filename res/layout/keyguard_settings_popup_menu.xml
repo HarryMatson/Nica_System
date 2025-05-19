@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:background="@drawable/keyguard_settings_popup_menu_background"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:minHeight="52.0dip"
+    android:paddingStart="16.0dip"
+    android:paddingEnd="24.0dip"
+    android:paddingVertical="16.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@id/icon"
+        android:layout_width="20.0dip"
+        android:layout_height="20.0dip"
+        android:tint="?android:textColorPrimary"
+        android:importantForAccessibility="no"
+        android:layout_marginEnd="16.0dip" />
+    <TextView
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textSize="14.0sp"
+        android:textColor="?android:textColorPrimary"
+        android:ellipsize="end"
+        android:id="@id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1" />
+</LinearLayout>

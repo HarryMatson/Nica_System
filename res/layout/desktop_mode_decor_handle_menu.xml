@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.wm.shell.windowdecor.WindowDecorLinearLayout
+    android:orientation="vertical"
+    android:id="@id/handle_menu"
+    android:background="@drawable/desktop_mode_decor_menu_background"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:divider="?android:dividerHorizontal"
+    android:showDividers="middle"
+    android:dividerPadding="18.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@id/application_icon"
+            android:layout_width="24.0dip"
+            android:layout_height="24.0dip"
+            android:layout_margin="12.0dip"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/app_icon_text"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:textColor="#ff000000"
+            android:id="@id/application_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@id/collapse_menu_button"
+            android:layout_toEndOf="@id/application_icon" />
+        <Button
+            android:id="@id/collapse_menu_button"
+            android:background="@drawable/caption_collapse_menu_button"
+            android:layout_width="24.0dip"
+            android:layout_height="24.0dip"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/collapse_menu_text"
+            android:layout_marginEnd="10.0dip"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:id="@id/windowing_mode_buttons"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <Space
+            android:layout_width="0.0dip"
+            android:layout_height="1.0dip"
+            android:layout_weight="0.5" />
+        <ImageButton
+            android:id="@id/fullscreen_button"
+            android:background="?android:selectableItemBackgroundBorderless"
+            android:src="@drawable/caption_fullscreen_button"
+            android:scaleType="fitCenter"
+            android:contentDescription="@string/fullscreen_text"
+            style="@style/CaptionWindowingButtonStyle" />
+        <Space
+            android:layout_width="0.0dip"
+            android:layout_height="1.0dip"
+            android:layout_weight="1.0" />
+        <ImageButton
+            android:id="@id/split_screen_button"
+            android:background="?android:selectableItemBackgroundBorderless"
+            android:src="@drawable/caption_split_screen_button"
+            android:scaleType="fitCenter"
+            android:contentDescription="@string/split_screen_text"
+            style="@style/CaptionWindowingButtonStyle" />
+        <Space
+            android:layout_width="0.0dip"
+            android:layout_height="1.0dip"
+            android:layout_weight="1.0" />
+        <ImageButton
+            android:id="@id/floating_button"
+            android:background="?android:selectableItemBackgroundBorderless"
+            android:src="@drawable/caption_floating_button"
+            android:scaleType="fitCenter"
+            android:contentDescription="@string/float_button_text"
+            style="@style/CaptionWindowingButtonStyle" />
+        <Space
+            android:layout_width="0.0dip"
+            android:layout_height="1.0dip"
+            android:layout_weight="1.0" />
+        <ImageButton
+            android:id="@id/desktop_button"
+            android:background="?android:selectableItemBackgroundBorderless"
+            android:src="@drawable/caption_desktop_button"
+            android:scaleType="fitCenter"
+            android:contentDescription="@string/desktop_text"
+            style="@style/CaptionWindowingButtonStyle" />
+        <Space
+            android:layout_width="0.0dip"
+            android:layout_height="1.0dip"
+            android:layout_weight="0.5" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/menu_buttons_misc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@id/screenshot_button"
+            android:text="@string/screenshot_text"
+            android:contentDescription="@string/screenshot_text"
+            android:drawableStart="@drawable/caption_screenshot_button"
+            style="@style/CaptionMenuButtonStyle" />
+        <Button
+            android:id="@id/select_button"
+            android:text="@string/select_text"
+            android:contentDescription="@string/select_text"
+            android:drawableStart="@drawable/caption_select_button"
+            style="@style/CaptionMenuButtonStyle" />
+        <Button
+            android:textColor="#ffff0000"
+            android:id="@id/close_button"
+            android:text="@string/close_text"
+            android:contentDescription="@string/close_text"
+            android:drawableStart="@drawable/caption_close_button"
+            style="@style/CaptionMenuButtonStyle" />
+    </LinearLayout>
+</com.android.wm.shell.windowdecor.WindowDecorLinearLayout>

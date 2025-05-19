@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.notification.fsi.FsiChromeView
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_margin="50.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@id/fsi_chrome"
+        android:layout_width="fill_parent"
+        android:layout_height="50.0dip"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <ImageView
+            android:id="@id/fsi_app_icon"
+            android:layout_width="50.0dip"
+            android:layout_height="fill_parent"
+            android:contentDescription="@null" />
+        <TextView
+            android:textSize="22.0dip"
+            android:textColor="#ffffffff"
+            android:gravity="center"
+            android:id="@id/fsi_app_name"
+            android:padding="10.0dip"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="AppName" />
+        <Space
+            android:layout_width="0.0dip"
+            android:layout_height="0.0dip"
+            android:layout_weight="1.0" />
+        <Button
+            android:id="@id/fsi_fullscreen_button"
+            android:layout_width="100.0dip"
+            android:layout_height="fill_parent"
+            android:text="fullscreen" />
+        <Button
+            android:id="@id/fsi_dismiss_button"
+            android:layout_width="100.0dip"
+            android:layout_height="fill_parent"
+            android:text="dismiss" />
+    </LinearLayout>
+</com.android.systemui.statusbar.notification.fsi.FsiChromeView>
